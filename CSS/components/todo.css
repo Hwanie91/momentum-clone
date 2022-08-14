@@ -29,6 +29,7 @@
   position: absolute;
   top: 1%;
   right: 0.5%;
+  font-size: 1vh;
 }
 #todo-list button {
   border: none;
