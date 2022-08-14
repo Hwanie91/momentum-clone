@@ -6,7 +6,6 @@ h1 {
   text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
   
 }
-
 #login-form {
   position: absolute;
   color: whitesmoke;
@@ -36,5 +35,5 @@ h1 {
 #login-form input:focus {
   border-color: whitesmoke;
   text-shadow: -1px 0 #8EF2EE, 0 1px #8EF2EE, 1px 0 #8EF2EE, 0 -1px #8EF2EE;
-  transition:  text-shadow 1s ease-in-out;
+  transition:  text-shadow 0.5s ease-in-out;
 }
