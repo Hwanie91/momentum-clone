@@ -1,0 +1,40 @@
+h1 {
+  position: absolute;
+  top: 47%;
+  left: 42%;
+  font-size: 5vh;
+  text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+  
+}
+
+#login-form {
+  position: absolute;
+  color: whitesmoke;
+  top: 47%;
+  left: 40%;
+}
+#login-form input::placeholder {
+  color: whitesmoke;
+}
+#login-form input:first-child {
+  border: none;
+  font-size: 3vh;
+  color: whitesmoke;
+  background-color: transparent;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  transition:  border-color 0.3s ease-in-out;
+}
+#login-form input:last-child {
+  font-size: 2vh;
+  cursor: pointer;
+  color: whitesmoke;
+  background-color: transparent;
+  border: 2px solid whitesmoke;
+  border-radius: 15px;
+}
+
+#login-form input:focus {
+  border-color: whitesmoke;
+  text-shadow: -1px 0 #8EF2EE, 0 1px #8EF2EE, 1px 0 #8EF2EE, 0 -1px #8EF2EE;
+  transition:  text-shadow 1s ease-in-out;
+}
