@@ -1,0 +1,7 @@
+#clock {
+  text-shadow: -1px 0 #8EF2EE, 0 1px #8EF2EE, 1px 0 #8EF2EE, 0 -1px #8EF2EE;
+  position: absolute;
+  top: 35%;
+  left: 41.5%;
+  font-size: 10vh;
+}
